@@ -1,10 +1,20 @@
 
+}
 
 
 
 .first-bar {
+    
+    height: 600px;
     background-color: aqua;
-    background-size: 100vw 100vw;
+    background-image: url(.//images/kid_transparent.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    animation: mymove 5s infinite;
+    
+
+    
+    
 }
 
 .first-barh4 {
@@ -19,6 +29,8 @@
     display: flex;
     flex-direction: row;
     color: brown;
+    letter-spacing: normal;
+
 }
 
 .nav-bar { 
@@ -34,4 +46,10 @@
 
     
 
+}
+
+.mid-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
